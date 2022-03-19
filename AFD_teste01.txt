@@ -1,0 +1,18 @@
+A B C D ; // estados do AFD
+0 1 ; // alfabeto
+// Transições representadas em linhas, uma linha por transição, onde:
+// - A primeira informação representa o estado de partida
+// - A segunda representa o estado de chegada
+// - A terceira representa o símbolo consumido
+A B 0 ; // A para B consumindo o símbolo 0
+A C 1 ; // A para C consumindo o símbolo 1
+B A 0 ;
+B D 1 ;
+C A 1 ;
+C D 0 ;
+D B 1 ;
+D C 0 ;
+# ; // indica que não há mais transições
+A ; // estado inicial
+B C ; // estados finais
+000 10011 0101 11100 ; // palavras a serem verificadas

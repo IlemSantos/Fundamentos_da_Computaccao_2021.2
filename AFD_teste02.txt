@@ -1,0 +1,12 @@
+q1 q2 q3;
+a b;
+q1 q1 b;
+q1 q2 a;
+q3 q1 b;
+q3 q2 a;
+q2 q3 a;
+q2 q3 b;
+#;
+q1;
+q2;
+bba aaa babaabba bbbabb;
